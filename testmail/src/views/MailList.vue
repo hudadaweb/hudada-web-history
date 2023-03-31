@@ -40,7 +40,7 @@ export default {
   data () {
     return {
       value: '', // 输入框值
-      current: 0, // 选中的索引序号
+      current: null, // 选中的索引序号
       show: false, // 控制模态框显示
       id: '' // 联系人主键id
     }
